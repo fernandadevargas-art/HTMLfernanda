@@ -22,7 +22,7 @@ console.log("Calculado");
 
 //VERSÃO 2
 const precoSemente= 150.0;
-fuction calcularInvestimentoTotal(quantidade){
+function calcularInvestimentoTotal(quantidade){
     return quantidade * precoSemente;
 }
 function atualizarInterface(valorTotal){
